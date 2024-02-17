@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  list-style-type: none;
+}
+body{
+    background-color: #DDDD;
+    width: 70%;
+}
+
+.local-storage{
+    background-color: #33495E;
+    color: #EBA128;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top:-50px;
+    left: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.line{
+    background-color: #EBA128;
+    width: 10px;
+    height: 350px;
+    margin-left: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text h1{
+    font-size: 4em;
+    color: #212F3C;
+}
+.text h2{
+    text-align: center;
+    color: #212F3C;
+    font-size: 2em;
+}
+
+.general-side {
+    width: 500px;
+    background-color: #212F3C;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem 0;
+    padding: 1rem;
+  }
+  .header h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    color:  #EBA128;
+    
+  }
+  .search-side {
+    display: flex;
+    gap: 0;
+  }
+  input, button{
+      padding: 5px 10px;
+      height: 30px;
+      border: none;
+      outline: none;
+      width: 45%;
+      height: 45px;
+  }
+  button{
+  background-color: #EBA128;
+  color: #DDDD;
+  }
+
+  ul li{
+    margin: 10px;
+    padding: 10px;
+    background-color: grey;
+    color: #DDDD;
+    margin: 10px;
+  }
+
+  p{
+    text-align: center;
+    color: white;
+  }
